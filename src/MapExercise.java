@@ -22,10 +22,10 @@ public class MapExercise {
 		String name = "";
 		String course = "";
 		
-		while (!name.equalsIgnoreCase("Q")) {
-			System.out.print("Enter a student's name (or Q to quit): ");
+		while (!name.equalsIgnoreCase("Q") && !name.equalsIgnoreCase("X")) {
+			System.out.print("Enter a student's name (Q or X to quit): ");
 			name = in.nextLine();
-			if (!name.equalsIgnoreCase("Q")) {
+			if (!name.equalsIgnoreCase("Q") && !name.equalsIgnoreCase("X")) {
 				System.out.print("Enter the student's favorite course: ");
 				course = in.nextLine();
 				courses.put(name, course);
