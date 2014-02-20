@@ -26,7 +26,7 @@ public class MapExercise {
 			System.out.print("Enter a student's name (Q or X to quit): ");
 			name = in.nextLine();
 			if (!name.equalsIgnoreCase("Q") && !name.equalsIgnoreCase("X")) {
-				System.out.print("Enter the student's favorite course: ");
+				System.out.print("Enter the student's hardest course: ");
 				course = in.nextLine();
 				courses.put(name, course);
 			}
@@ -35,7 +35,7 @@ public class MapExercise {
 	
 	public void printCourses() {
 		for (Entry<String, String> entry : courses.entrySet()) {
-			System.out.println(entry.getKey() + " tolerates " + entry.getValue());
+			System.out.println(entry.getKey() + " struggles with " + entry.getValue());
 		}
 	}
 	
