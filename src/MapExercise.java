@@ -44,7 +44,7 @@ public class MapExercise {
 		MapExercise m = new MapExercise();
 		m.addCourses();
 		m.printCourses();
-		System.out.println("Something changed.");
+		System.out.println("Hello world!");
 	}
 
 }
