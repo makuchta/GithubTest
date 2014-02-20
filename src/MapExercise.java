@@ -43,6 +43,8 @@ public class MapExercise {
 	public static void main(String[] args) {
 		Something s = new Something(5);
 		s.print();
+		SomethingElse sE = new SomethingElse();
+		sE.print();
 		
 		MapExercise m = new MapExercise();
 		m.addCourses();
