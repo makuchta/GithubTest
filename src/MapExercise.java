@@ -35,7 +35,7 @@ public class MapExercise {
 	
 	public void printCourses() {
 		for (Entry<String, String> entry : courses.entrySet()) {
-			System.out.println(entry.getKey() + " likes " + entry.getValue());
+			System.out.println(entry.getKey() + " tolerates " + entry.getValue());
 		}
 	}
 	
