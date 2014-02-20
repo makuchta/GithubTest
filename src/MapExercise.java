@@ -41,7 +41,8 @@ public class MapExercise {
 	
 	
 	public static void main(String[] args) {
-		Something s = new Something();
+		Something s = new Something(5);
+		s.print();
 		
 		MapExercise m = new MapExercise();
 		m.addCourses();
